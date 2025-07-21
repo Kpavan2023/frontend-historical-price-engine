@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪙</text></svg>"
         />
       </head>
-      <body className={`${inter.className} antialiased min-h-screen bg-gradient-to-br from-[var(--primary)] via-[var(--secondary)] to-[var(--accent)] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700`} suppressHydrationWarning>
+      <body className={`${inter.className} antialiased min-h-screen bg-gradient-to-br from-[var(--primary)] via-[var(--secondary)] to-[var(--accent)] dark:from-gray-700 dark:via-gray-600 dark:to-gray-500`} suppressHydrationWarning>
         <motion.button
           className="fixed top-4 right-4 p-2 rounded-full bg-[var(--primary)] text-white shadow-lg glow pulse"
           onClick={() => setDarkMode(!darkMode)}

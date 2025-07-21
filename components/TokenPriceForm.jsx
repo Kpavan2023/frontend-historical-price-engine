@@ -15,7 +15,7 @@ export default function TokenPriceForm({ onSubmit, loading }) {
   };
 
   const inputVariants = {
-    focused: { scale: 1.02, boxShadow: '0 0 10px rgba(168, 85, 247, 0.5)' },
+    focused: { scale: 1.02, boxShadow: '0 0 50px rgba(94, 52, 134, 0.5)' },
     blurred: { scale: 1, boxShadow: 'none' },
   };
 
