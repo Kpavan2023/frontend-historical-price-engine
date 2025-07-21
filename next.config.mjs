@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.vue$/,
-      use: ['vue-loader'],
-    });
-    return config;
+  output: 'export',
+  images: {
+    unoptimized: true, // Optional: if you use <Image>, needed for static export
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
